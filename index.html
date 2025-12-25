@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>businessHUB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <style>
+        body {
+            font-family: arial,sans-serif;
+            background-color: rgba(44, 39, 39, 0);
+            color: rgb(16, 15, 15);
+            padding: 20px;
+            margin:10px;
+            text-align: left;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .highlight {
+            color:brown;
+            font-weight: bold;
+        }
+        table {
+            width:100%;
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            margin: 10px;
+            color:rgb(0, 0, 0);
+            border-collapse: collapse;
+            overflow-x: auto;
+        }
+        .parallax {
+            width:100%;
+            height: 300px;
+            background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200');
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed; /*key for parallax*/
+        }
+        .box {
+            width:85%;
+            background-color: white;
+            transition: all 2s ease;
+            border-radius: 0;
+        }
+        .box:hover {
+            width:85%;
+            transform: scale(1.03);
+            box-shadow: 0 10 15px rgb(16, 16, 16);
+            flex: 1 1 300px;
+            cursor: pointer;
+        }
+        .fade-in {
+            animation: fadeIn 5s ease-in-out;
+        }
+        @keyframes fadeIn {
+           0%{ opacity:0;}
+           100% {opacity: 1;}
+        }
+        img {
+            padding:5px;
+            max-width: 100%;
+            height: auto;
+            display: inline;
+        }
+        a {
+            text-decoration: underline;
+            color: rgb(9, 82, 172);
+        }
+        p {
+            padding:10px;
+            background-color: rgb(56, 173, 209);
+            text-align: center;
+            color: whitesmoke;
+        }
+        
+        h4 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            background-color: rgb(176, 145, 209);
+            padding:15px;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(255, 200, 0);
+        }
+        td, th {
+            padding: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="parallax"></div>
+        <br/>
+        <h1 id="home"class="box">businessHUB</h1>
+        <a href="#more">more</a>&nbsp;&nbsp;
+        <a href="#contact">contact</a>&nbsp;&nbsp;
+        <a href="#forms">forms</a><br/>&nbsp;&nbsp;
+
+        <form action="http://www.google.com">Search:<br/>
+            <input type="search" name="search" 
+placeholder="ask google...." />
+<input type="submit" value="Search"/>
+</form><br/>
+
+        <h1>taste our services</h1>
+    <h2>What our website is?</h2>
+    <p class="fade-in">This web site has started 2025 for helping you to get quick online services, 
+        see what is available on the market
+    and be able to be in touch with us. so in case you need our service you 
+    can reach out to us easily. our team called <span class="highlight">THE ORION</span>
+     works hard to serve you at ease!.<br/>
+    So we offer different services, for those who shops online are free to reach us. 
+    We provide modern, reliable, and results-driven solutions designed to help individuals and businesses grow in today’s digital world. 
+    Our focus is on delivering high-quality services that combine innovation, practicality, and user-centered design. By understanding each client’s goals, 
+    we create tailored solutions that are efficient, secure, and scalable—ensuring long-term value and measurable impact.
+    Our commitment is not only to meet expectations, but to exceed them through transparency, precision, and continuous improvement.</p>
+    <p class="fade-in"><figure><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200" 
+             alt="Startup brainstorming session"width="400px"class="box"><br/><figcaption><i>Our services taste much better than counseling, join us please.</i></figcaption></figure></p>
+        <h3>Some Of Our Activities Are:</h3>
+            <ul>
+                 <li>online applications</li>
+                 <li>online shopping</li>
+                 <li>website design for small businesses</li>
+                 <li>personal websites</li>
+                 <li>business website landing pages</li>
+                 <li>logo design</li>
+            </ul>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Service</th>
+                    <th>Time</th>
+                    <th>Price($)</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Online applications</td>
+                    <td>Hours to days</td>
+                    <td>1$-3$</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Online shopping</td>
+                        <td>Depends on your location</td>
+                        <td>Price $ of a sold product</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Website design for small businesses</td>
+                            <td>1 week</td>
+                            <td>300$-500$</td>
+                         </tr>
+                        <tr>
+                             <td>4.</td>
+                            <td>Personal website</td>
+                            <td>5 days-week</td>
+                            <td>80$-120$</td>
+                         </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Business website landing pages</td>
+                            <td>4 days-week</td>
+                            <td>150$-250$</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Logo design</td>
+                            <td>Hours</td>
+                            <td>5$-20$</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Simple edits</td>
+                            <td>Hours-Days</td>
+                            <td>5$-15$</td>
+                        </tr>
+            </tbody>
+        </table>
+        <h3 id="more">Options</h3>
+        <p>We are available:</p>
+        <ol>
+            <li>Monday &nbsp;&nbsp;-&nbsp;&nbsp;<i>full time</i></li>
+            <li>Tuesday &nbsp;&nbsp;-&nbsp;&nbsp;<i>full time</i></li>
+            <li>Wednesday &nbsp;&nbsp;-&nbsp;&nbsp;<i>full time</i></li>
+            <li>Thursday &nbsp;&nbsp;-&nbsp;&nbsp;<i>full time</i></li>
+            <li>Friday &nbsp;&nbsp;-&nbsp;&nbsp;<i>full time</i></li>
+            <li>Saturday &nbsp;&nbsp;-&nbsp;&nbsp;<i>part time</i></li>
+            <li>Sunday &nbsp;&nbsp;-&nbsp;&nbsp;<i>part time</i></li>
+        </ol>
+        <p>Our company specializes in building efficient, secure, and scalable digital solutions for modern businesses
+            <a href="https://www.forbes.com/business/"><b>modern businesses</b></a>.
+             We combine technical  expertise with strategic thinking to deliver systems that are reliable, user-friendly, 
+             and built for growth &nbsp;&nbsp;&nbsp;&nbsp;
+             <br/>
+             <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200"class="box"alt="Startup business hub workspace"width="400px">
+             &nbsp;&nbsp;&nbsp;&nbsp;<br/>
+             <br/><span class="highlight">proposal</span><br/>
+             We help businesses grow by delivering smart, practical, and innovative solutions tailored to real-world needs. 
+             Our approach combines quality, efficiency, and trust to create lasting value.</p>
+            <h5 id="contact">contact information</h5>
+             <ul>  
+             <li>📛 N. Clement Ader & S. Lumiere Elon</li>  
+             <li>📞 +250 792064613 </li>
+             <li>📧 aderclement25@gmail.com</li>
+             <li>📍 Kigali-rwanda</li>
+        </ul>
+        <a href="#home">home</a>
+             <hr>
+             <h4 id="forms">Fill our form</h4>
+                <form id="contact-form" action="https://formspree.io/f/mrezagzk" method="POST">
+                <fieldset>
+                    <legend>
+                        your details:
+                    </legend>
+                    <label>
+                        Name:
+                        <input type="text"name="name"required>
+                    </label>
+                    <label>
+                        Email:
+                        <input type="email"name="email"required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        your review:
+                    </legend>
+                    <label>how did you hear about us?
+                    <select name="referrer"required>
+                        <option value="google">google</option>
+                        <option value="friends">friends</option>
+                        <option value="advert">advert</option>
+                        <option value="other">other</option>
+                    </select></label>
+                    <br/>will you visit again?<br/>
+                    <label><input type="radio"name="rating"value="yes">yes</label>
+                    <label><input type="radio"name="rating"value="no">no</label>
+                    <label><input type="radio"name="rating"value="maybe">maybe</label>
+                    <br/>
+                    <label>comments:<br/>
+                        <textarea name="comments"rows="4"cols="40"placeholder="your comment and website link address....."></textarea>
+                        <br/>
+                        </label>
+                    <label>
+                        <input type="checkbox"name="subscribe">sign me up for updates</label>
+                    <input type="submit"value="submit review"></fieldset>
+        </form>
+        <p id="status"></p>
+         <script>
+  const form = document.getElementById('contact-form');
+form.addEventListener('submit', function(event) {
+    setTimeout(() => { // small delay to ensure submission completes
+        form.reset(); // clears all input fields
+    }, 100);
+});
+document.getElementById('contact-form').addEventListener('submit', function() {
+  alert('Thank you! Your review has been sent.');
+});
+</script>
+    </body>
+</html>
